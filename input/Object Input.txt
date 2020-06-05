@@ -1,0 +1,26 @@
+####FORMAT: One line is "@" then the epoch in JD. "#" denotes the beginning of a comment line. All other lines are object inputs, e.g. for the orbiter class:
+####Orbiter format: orbiter, name, primary name or position of reference frame if base-level primary such as the sun, semi-major axis, eccentricity, inclination, longitude of the ascending node, argument of periapsis, mean anomoly at epoch, obliquity, radius of planet, mass of planet, period of rotation, color of trail
+####PointCloud format (WIP): pointcloud name primaryName count mina maxa size restrictI
+####Rings format: rings name primaryName leastAltitudeAbovePrimary greatestAltitudeAbovePrimary minimumThicknessOfRing maxmimumThicknessOfRing maximumGapBetweenRings
+####TextureCloud format: texturecloud name primaryName shape(currently'ring'or'sphere) distanceFromPrimary halfThicknessOfCloud positionInPrimaryFrame
+####lines are split by space, with '_' as the escape character
+@2457966.5
+orbiter Sun (0,0,0) 0 0 0 0 0 0 6 4.7E-03 1.988435E+30 24 1 1 0
+orbiter Earth Sun 1 1.67E-02 2.389E-03 2.889E+02 1.74E+02 2.06646E+02 23.4 4.3E-05 5.9721986E+24 0.9973 0 0.2 1
+orbiter Earth's_Moon Earth 2.542785961478468E-03 6.491009122105861E-02 5.265529567322735E+00 2.905176723485847E+02 1.441076648537559E+02 1.563764617151365E+02 29 1.2E-05 7.3459E+22 27 0.5 0.5 0.5
+pointcloud Asteroid_Belt Sun 60 2.2 3.2 1.5 True
+orbiter Jupiter Sun 5.202E+00 4.891E-02 1.30E+00 2.7E+02 1E+02 1.9E+02 3.1 4.7E-04 1.889E+27 0.3751 1 0.76 0.27
+pointcloud Jupiter's_Moons Jupiter 15 0.003 0.2 1 False
+orbiter Saturn Sun 9.572E+00 5.163E-02 2.49E+00 3.4E+02 1.1E+02 1.7E+02 26.7 3.9E-04 5.683E+26 0.4421 1 0.915 0.786
+rings Saturn's_Rings Saturn 4.7E-05 5.3E-04 0.0001 0.08 0.01
+texturecloud Kuiper_Belt Sun ring 42.5 12.5 0 0 0
+texturecloud Oort_Cloud Sun sphere 55000 45000 0 0 0
+orbiter Mercury Sun 3.87E-01 2.056E-01 7E+00 2.92E+01 4.83E+01 1.737E+02 0.1 1E-21 3.3E23 175.9 1 1 1
+orbiter Jason Sun 2.214 0.766 4.918 169.390 3.3716E+02 3.3326E+01 0 4.3E-05 0 150 1 1 1
+orbiter Mars Sun 1.524E+00 9.352E-02 1.848E+00 4.95E+01 2.866E+0 1.444E+02 25.2 2.3E-05 6.42E23 1.027 1.0 0.271 0.065
+orbiter Venus Sun 7.233E-01 6.79E-03 3.39E+00 5.47E+01 7.66E+01 2.59E+02 177 4E-05 48.7E23 116.7 1.0 0.67 0.123
+orbiter Uranus Sun 1.913E+01 4.957E-02 7.72E-01 9.9E+01 7.4E+01 2.2E+02 98 1.7E-04 86.8E24 0.718 0.904 0.904 1
+orbiter Neptune Sun 3.003E+01 6.477E-03 1.77E+00 2.8E+02 1.3E+02 2.9E+02 30 1.6E-04 102.4E24 0.671 0 0 1
+orbiter Pluto Sun 3.914E+01 2.468E-01 1.72E+01 1.1E+02 1.1E+02 4.2E+01 120 7.9E-06 1.31E22 6.4 1 1 1
+rings Uranus's_Rings Uranus 4.7E-05 5.3E-04 0.00001 0.01 0.3
+rings Neptune's_Rings Neptune 4.7E-05 5.3E-04 0.00001 0.01 0.3
