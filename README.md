@@ -6,7 +6,7 @@ Tool for simulating and visualizing planetary objects in the cosmic neighborhood
 
 How can we simulate extraterrestrial objects given observations of them? The so-called Method of Gauss provides an algorithm for determining the orbit of such objects, given three positional observations.
 
-The goal is to produce an efficient, numerically stable simulator of this procedure, with many flexible parameters. This project builds on observations and computations of near-Earth asteroid 6063 Jason, which I made with a team of three as part of the Summer Science Program in Astrophysics in 2017. The asteroid can be found in the default configurations. 
+The goal is to produce an efficient, numerically stable simulator of this procedure, with many flexible parameters. This project builds on observations and computations of near-Earth asteroid 6063 Jason, which I made with a team of three as part of the Summer Science Program in Astrophysics in 2017. The asteroid can be found in the default configurations. The observations are [published in the Smithsonian Minor Planet Circulars](https://www.minorplanetcenter.net/iau/ECS/MPCArchive/2017/MPC_20171005.pdf).
 
 ## Installation
 
